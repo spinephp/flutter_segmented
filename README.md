@@ -1,6 +1,6 @@
 # flutter_segmented
 
-A new Flutter package project.
+A Flutter package like ios's Segmented Controller.
 
 ## Getting Started
 
