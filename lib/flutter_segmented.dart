@@ -80,7 +80,7 @@ class _SegmentBarState extends State<SegmentBar> {
 
     // 文字颜色
     final Color _clText =
-        selectItem == position ? widget.defaultColor : widget.selectedColor;
+        selectItem == position ? widget.defaultColor : Colors.black45;
 
     // 按钮圆角样式，最左边的左边有上下圆角，最右边的有右边上下圆角，当中的无圆角
     final _roundBorder = position == 0
@@ -126,7 +126,7 @@ class _SegmentBarState extends State<SegmentBar> {
                   primary: _backColor,
                   shape: _roundBorder,
                   side: BorderSide(
-                      color: widget.selectedColor, width: widget.borderWidth),
+                      color: Colors.black45, width: widget.borderWidth),
                 ),
               ));
   }
